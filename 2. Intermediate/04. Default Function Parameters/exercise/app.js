@@ -9,6 +9,7 @@ function append(value, array = []) {
 
 append(1); // [1]
 append(2); // [2], not [1, 2]
+console.log(append(3));
 
 // ----------------------------
 // 1. Create function name (multiply) with 2 parameters (a, b) which will multiply the parameters value
